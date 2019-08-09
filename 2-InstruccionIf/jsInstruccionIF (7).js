@@ -4,14 +4,13 @@ function mostrar()
 var edad;
 var estado;
 
-edad=document.getElementById("edad").value;
 
-estado=documnet.getElementById("estadoCivil").value;
-	
+edad=parseInt(document.getElementById('edad').value);
+estado=document.getElementById('estadoCivil').value;
 
-if(!(edad >18    &&     estado == casado && estado == divorciado))
-{
+if(edad < 18 && estado != "Soltero"){
+    alert('es muy pequeño para NO estar soltero');
 
-    alert("es muy pequeño para no ser soltero");
 }
+
 }//FIN DE LA FUNCIÓN
