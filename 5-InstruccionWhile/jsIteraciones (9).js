@@ -1,16 +1,15 @@
 function mostrar()
 {
 
-	var contador=0;
-	// declarar variables
-	
-	var respuesta='si';
+	var flag=0;
+	var seguir='si';
+	var num;
+	var maximo ;
+	var minimo ;
 
-	while(respuesta!='no')
-	{
-		
+
+do {
 	
-	}
 
 
 
